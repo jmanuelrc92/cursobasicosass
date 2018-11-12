@@ -1,0 +1,27 @@
+$primaryColor: #ffffff;
+$secundaryColor: #a0a0a0;
+$accentColor: #000000;
+$fontColor: #000000;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: $primaryColor;
+  color: $fontColor;
+  & section {
+  	font-style: italic;
+  }
+}
+.content {
+  min-height: 100%;
+}
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+  border: solid $accentColor;
+}
+.footer {
+  height: 50px;
+  margin-top: -50px;
+  background-color: $secundaryColor;
+}
